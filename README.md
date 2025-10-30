@@ -16,21 +16,22 @@ The project also includes a **SystemVerilog testbench** for verification and a *
 ---
 
 ## Project Structure
+```bash
 adder-Test2/
-                                                                                                                                     |
-                                                                                                                                     |--adder_rtl/ 
-                                                                                                                                     | |-- rca.v # Ripple-Carry Adder
-                                                                                                                                     | |-- cla.v # Carry-Lookahead Adder
-                                                                                                                                     │ |-- prefix.v # Prefix Adder
-                                                                                                                                     |
-                                                                                                                                     |-- tb/
-                                                                                                                                     | |-- tb_adders.v # Testbench for all adders
-                                                                                                                                     |
-                                                                                                                                     |-- results/
-                                                                                                                                     │ |-- results.md # Simulation and synthesis report
-                                                                                                                                     |
-                                                                                                                                     |-- README.md # Project documentation
-
+|
+|--adder_rtl/ 
+| |-- rca.v # Ripple-Carry Adder
+| |-- cla.v # Carry-Lookahead Adder
+│ |-- prefix.v # Prefix Adder
+|
+|-- tb/
+| |-- tb_adders.v # Testbench for all adders
+|
+|-- results/
+│ |-- results.md # Simulation and synthesis report
+|
+|-- README.md # Project documentation
+```
 ---
 
 ## Vivado Simulation Instructions
