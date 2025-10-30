@@ -17,12 +17,12 @@ The project also includes a **SystemVerilog testbench** for verification and a *
 
 ## Project Structure
 adder-Test2/
-│
-├── adder_rtl/
-│ ├── rca.v # Ripple-Carry Adder
-│ ├── cla.v # Carry-Lookahead Adder
-│ └── prefix.v # Prefix Adder
-│
+|
+|--adder_rtl/ 
+| |-- rca.v # Ripple-Carry Adder
+| |-- cla.v # Carry-Lookahead Adder
+│ |-- prefix.v # Prefix Adder
+|
 ├── tb/
 │ └── tb_adders.v # Testbench for all adders
 │
