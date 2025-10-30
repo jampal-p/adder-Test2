@@ -64,7 +64,7 @@ Expected output prints to the simulation console in Vivado.
 
 ## Git Workflow & Version Control
 
-This project follows the **Gitflow branching model**, as required by the assignment.
+This project follows the **Gitflow branching model**.
 
 ### Branches Used
 - `main` → final, stable release branch  
@@ -75,7 +75,7 @@ This project follows the **Gitflow branching model**, as required by the assignm
 
 ---
 
-### Workflow Steps (Recorded for Documentation)
+### Workflow Steps
 
 ```bash
 # 1. Initialize local repo and connect to GitHub
@@ -121,10 +121,9 @@ git tag -a v1.0 -m "Adder Test 2 submission v1.0"
 git push origin main --tags
 | Commit #       | Message                                                 | Description                      |
 | -------------- | ------------------------------------------------------- | -------------------------------- |
-| 1              | `chore(project): initialize repo and folder structure`  | Initial project setup            |
-| 2              | `feat(rca): implement parameterized ripple-carry adder` | Added RCA design                 |
-| 3              | `feat(cla): implement carry-lookahead adder`            | Added CLA design                 |
-| 4              | `feat(prefix): add prefix adder (Brent–Kung)`           | Added Prefix design              |
-| 5              | `test(tb): add verification testbench and results`      | Added testbench and results file |
-| 6 *(optional)* | `docs(readme): add Git workflow and final notes`        | Documentation update             |
+| 1              | `feat(rca): implement parameterized ripple-carry adder` | Added RCA design                 |
+| 2              | `feat(cla): implement carry-lookahead adder`            | Added CLA design                 |
+| 3              | `feat(prefix): add prefix adder (Brent–Kung)`           | Added Prefix design              |
+| 4              | `test(tb): add verification testbench and results`      | Added testbench and results file |
+| 5              | `docs(readme): add Git workflow and final notes`        | Documentation update             |
 | Final          | `release(v1.0): final submission version tag`           | Tagged release for grading       |
