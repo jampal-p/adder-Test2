@@ -23,13 +23,13 @@ adder-Test2/
 | |-- cla.v # Carry-Lookahead Adder
 │ |-- prefix.v # Prefix Adder
 |
-├── tb/
-│ └── tb_adders.v # Testbench for all adders
-│
-├── results/
-│ └── results.md # Simulation and synthesis report
-│
-└── README.md # Project documentation
+|-- tb/
+| |-- tb_adders.v # Testbench for all adders
+|
+|-- results/
+│ |-- results.md # Simulation and synthesis report
+|
+|-- README.md # Project documentation
 ---
 
 ## Vivado Simulation Instructions
