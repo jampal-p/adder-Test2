@@ -8,7 +8,7 @@
 This project implements and compares three different adder architectures in **SystemVerilog**:
 - **Ripple-Carry Adder (RCA)**  
 - **Carry-Lookahead Adder (CLA)**  
-- **Prefix Adder (Brent–Kung style)**  
+- **Prefix Adder**  
 
 Each adder is parameterized for multiple bit-widths (8, 16, 32, 64).  
 The project also includes a **SystemVerilog testbench** for verification and a **results report** summarizing simulation and synthesis findings.
